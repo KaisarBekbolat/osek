@@ -1,0 +1,39 @@
+body{
+    background: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    width: 450px;
+    height: 500px;
+    margin: 8% auto;
+    background: #fff;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+h2{
+    text-align: left;
+    margin-bottom: auto;
+    color: black;
+}
+h3{
+    text-align: right;
+    margin-bottom: auto;
+    color: #7c1212;
+    font-size: medium;
+}
+h4{
+    text-align: center;
+}
+
+.btn-box{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: large;
+}
